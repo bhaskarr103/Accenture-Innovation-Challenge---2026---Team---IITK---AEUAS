@@ -125,8 +125,6 @@ The experiment was evaluated using classification metrics including:
 
 ### Results
 
-> **Insert the final Experiment 1 metrics/results here from the experiment output.**
-
 | Model / Configuration | Accuracy | Precision | Recall | F1 | ROC-AUC |
 |---|---:|---:|---:|---:|---:|
 | Baseline | — | — | — | — | — |
@@ -271,7 +269,6 @@ The SECOM experiments were evaluated using:
 
 ### Results
 
-> **Insert the final SECOM metrics obtained from the CSV result files here.**
 
 | Experiment / Configuration | Accuracy | Precision | Recall | F1 | ROC-AUC |
 |---|---:|---:|---:|---:|---:|
