@@ -406,13 +406,11 @@ The system provides:
 
 ### Demo Video
 
-The recorded prototype output is provided in the repository:
+The following video demonstrates the working Experiment 3 prototype for worker detection, moving-car tracking, and ground-position estimation.
 
-```text
-pose_output.mp4
-```
-
-[▶ View / download the Experiment 3 demo video](Screen-Recording.mp4)
+<video src="Screen-Recording.mp4" controls width="900">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
