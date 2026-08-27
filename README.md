@@ -404,10 +404,6 @@ The system provides:
 - Moving car anchor
 - Car translation
 
-### Example Output
-
-![Experiment 3 Output](images/3.png)
-
 ### Demo Video
 
 The recorded prototype output is provided in the repository:
