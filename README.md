@@ -410,7 +410,7 @@ The following video demonstrates the working Experiment 3 prototype for worker d
 
 <p align="center">
   <video
-    src="PASTE-YOUR-GITHUB-VIDEO-URL-HERE"
+    src="https://github.com/user-attachments/assets/1aae6dc8-ef19-4a69-bcbd-ae2d84fd1d8f"
     controls
     width="1000">
   </video>
