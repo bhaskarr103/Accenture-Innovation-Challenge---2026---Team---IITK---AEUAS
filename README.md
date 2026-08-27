@@ -408,9 +408,13 @@ The system provides:
 
 The following video demonstrates the working Experiment 3 prototype for worker detection, moving-car tracking, and ground-position estimation.
 
-<video src="Screen-Recording.mp4" controls width="900">
-  Your browser does not support the video tag.
-</video>
+<p align="center">
+  <video
+    src="PASTE-YOUR-GITHUB-VIDEO-URL-HERE"
+    controls
+    width="1000">
+  </video>
+</p>
 
 ---
 
