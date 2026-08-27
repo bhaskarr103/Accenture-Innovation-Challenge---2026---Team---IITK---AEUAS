@@ -412,7 +412,7 @@ The recorded prototype output is provided in the repository:
 pose_output.mp4
 ```
 
-[▶ View / download the Experiment 3 demo video](pose_output.mp4)
+[▶ View / download the Experiment 3 demo video](Screen-Recording.mp4)
 
 ---
 
