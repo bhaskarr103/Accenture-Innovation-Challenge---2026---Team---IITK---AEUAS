@@ -498,6 +498,148 @@ Potential extensions include:
 
 ---
 
+Yes — I understand now. You want **one clean Markdown block that you can copy directly into GitHub**, with the image placeholders already included.
+
+Use this exactly:
+
+````markdown
+# 4. LineSight Digital Twin
+
+The LineSight module implements a read-only Digital Twin for monitoring and
+analyzing a synthetic production line.
+
+The objective is to transform production event data into a digital view of the
+production process and identify station-level performance degradation and
+production bottlenecks.
+
+The implemented pipeline is:
+
+```text
+Production Event Data
+        ↓
+Process Discovery
+        ↓
+Station-Level Analysis
+        ↓
+Cycle-Time Monitoring
+        ↓
+Bottleneck Detection
+        ↓
+Digital Twin Dashboard
+````
+
+### Digital Twin Dashboard
+
+The LineSight dashboard provides a high-level view of the production system,
+including event statistics, station information, process-discovery performance,
+and identified bottlenecks.
+
+![LineSight Dashboard](images/6.png)
+
+The dashboard currently reports:
+
+* Total production events
+* Number of production stations
+* Process-discovery precision
+* Process-discovery recall
+* Mean cycle time
+* Cycle-time variation
+* Relative slowdown
+* Detected production bottleneck
+
+### Bottleneck Detection
+
+The Digital Twin analyzes the cycle-time behavior of individual production
+stations to identify abnormal slowdowns.
+
+![Bottleneck Detection](images/7.png)
+
+In the current experiment, **Station 10** is identified as the primary
+production bottleneck.
+
+The Digital Twin reports:
+
+* Mean cycle time: **12.24 min**
+* Cycle-time variation: **1.70 min**
+* Relative slowdown: **23.1%**
+
+The simulation includes an equipment-wear fault at Station 10. The increasing
+cycle-time multiplier represents gradual equipment degradation, allowing the
+Digital Twin to expose its effect as a production bottleneck.
+
+### Station and Sensor Coverage
+
+The Digital Twin also maintains station-level monitoring information and
+sensor-coverage status.
+
+![Station and Sensor Coverage](images/8.png)
+
+Stations can be classified according to their available monitoring coverage:
+
+* Instrumented
+* Partial
+* Manual
+
+The sensor-coverage view provides an overview of the available monitoring data
+for each station and helps identify areas where additional instrumentation may
+be beneficial.
+
+### Read-Only Digital Twin Architecture
+
+The current implementation follows a read-only architecture.
+
+```text
+Synthetic / Exported Production Data
+              ↓
+       Data Processing
+              ↓
+       Process Discovery
+              ↓
+      Digital Twin Model
+              ↓
+     Bottleneck Analysis
+              ↓
+        Dashboard
+              ↓
+      Monitoring / Insights
+```
+
+The current Digital Twin does not contain a PLC write path. It consumes
+production data, maintains a digital representation of the production line,
+and provides monitoring and analytical insights.
+
+### Current Capabilities
+
+The implemented LineSight prototype currently demonstrates:
+
+* Production-event ingestion
+* Process discovery
+* Station-level cycle-time analysis
+* Bottleneck identification
+* Equipment-degradation analysis
+* Sensor-coverage monitoring
+* Digital Twin dashboard visualization
+* Read-only system monitoring
+
+### Future Direction
+
+The LineSight Digital Twin can subsequently be extended toward real-time
+integration with physical or simulated production systems.
+
+Potential extensions include:
+
+* Real-time event streaming
+* Live equipment-state synchronization
+* Predictive maintenance
+* Anomaly detection
+* Remaining useful life estimation
+* Additional sensor integration
+* Automated maintenance alerts
+* Historical trend analysis
+* Cloud-based Digital Twin deployment
+
+---
+
 # Repository Structure
 
 The repository is organized as follows:
