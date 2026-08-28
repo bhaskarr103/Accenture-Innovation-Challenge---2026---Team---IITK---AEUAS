@@ -502,7 +502,6 @@ Yes — I understand now. You want **one clean Markdown block that you can copy 
 
 Use this exactly:
 
-````markdown
 # 4. LineSight Digital Twin
 
 The LineSight module implements a read-only Digital Twin for monitoring and
