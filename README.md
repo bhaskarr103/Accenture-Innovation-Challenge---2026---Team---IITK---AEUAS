@@ -498,10 +498,6 @@ Potential extensions include:
 
 ---
 
-Yes — I understand now. You want **one clean Markdown block that you can copy directly into GitHub**, with the image placeholders already included.
-
-Use this exactly:
-
 # 4. LineSight Digital Twin
 
 ![Python](https://img.shields.io/badge/python-3.11-blue) ![Status](https://img.shields.io/badge/status-prototype-orange) ![Tests](https://img.shields.io/badge/tests-20%20scripts%20passing-brightgreen)
@@ -512,6 +508,18 @@ Use this exactly:
 
 Accenture Innovation Challenge 2026 · DigitalTwin.ai · Team IITK-AEUAS (Bhaskar Rajaura, Tahseen Aslam), IIT Kanpur
 
+---
+### Demo Video
+
+The following video demonstrates the working Experiment 3 prototype for worker detection, moving-car tracking, and ground-position estimation.
+
+<p align="center">
+  <video
+    src="https://github.com/user-attachments/assets/1aae6dc8-ef19-4a69-bcbd-ae2d84fd1d8f"
+    controls
+    width="1000">
+  </video>
+</p>
 ---
 
 ## The system 
