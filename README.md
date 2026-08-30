@@ -127,9 +127,9 @@ The experiment was evaluated using classification metrics including:
 
 | Model / Configuration | Accuracy | Precision | Recall | F1 | ROC-AUC |
 |---|---:|---:|---:|---:|---:|
-| Baseline | — | — | — | — | — |
-| Proposed / Hybrid | — | — | — | — | — |
-| Ensemble | — | — | — | — | — |
+| Baseline | 98.45 ± 0.19% | 83.90 ± 4.16% | 67.84 ± 7.41% | 74.74 ± 4.08% | — |
+| Proposed / Hybrid | 97.96 ± 0.22% | 72.30 ± 7.86% | 67.84 ± 13.49% | 68.81 ± 5.98% | — |
+| Ensemble | 97.37 ± 0.19% | 92.98 ± 7.34% | 25.10 ± 7.77% | 38.84 ± 8.66% | — |
 
 ---
 
@@ -272,11 +272,11 @@ The SECOM experiments were evaluated using:
 
 | Experiment / Configuration | Accuracy | Precision | Recall | F1 | ROC-AUC |
 |---|---:|---:|---:|---:|---:|
-| Main SECOM | — | — | — | — | — |
-| Ensemble | — | — | — | — | — |
-| Ablation | — | — | — | — | — |
-| Latent Ablation | — | — | — | — | — |
-| Threshold Experiment | — | — | — | — | — |
+| Main SECOM | 93.22% | 0.00% | 0.00% | 0.00% | — |
+| Ensemble | 92.80% | 40.00% | 12.50% | 19.05% | — |
+| Ablation | 90.68% | 33.33% | 37.50% | 35.29% | — |
+| Latent Ablation | 86.44% | 21.43% | 37.50% | 27.27% | — |
+| Threshold Experiment | 85.17% | 21.21% | 43.75% | 28.57% | — |
 
 ---
 
