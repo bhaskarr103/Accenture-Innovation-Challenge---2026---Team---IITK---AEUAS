@@ -515,7 +515,7 @@ The following video demonstrates the working Experiment 3 prototype for worker d
 
 <p align="center">
   <video
-    src="https://github.com/user-attachments/assets/1aae6dc8-ef19-4a69-bcbd-ae2d84fd1d8f"
+    src=https://github.com/user-attachments/assets/4072b4ee-b87d-4dc5-b3f0-d07a38d2e969
     controls
     width="1000">
   </video>
